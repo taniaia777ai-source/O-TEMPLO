@@ -1,0 +1,22 @@
+O TEMPLO QUE VOCÊ HABITA — LANDING PAGE
+
+Arquivos:
+- index.html: página responsiva da landing page.
+- capa-templo.jpg: capa extraída do PDF fornecido.
+- ebook.pdf: arquivo do e-book usado nos botões de download.
+
+TESTE LOCAL:
+Abra index.html em um navegador. Mantenha os três arquivos na mesma pasta.
+
+PUBLICAÇÃO NA VERCEL:
+1. Extraia o ZIP para uma pasta.
+2. No computador, instale Node.js e a CLI da Vercel (npm i -g vercel), se ainda não tiver.
+3. Abra um terminal nessa pasta e execute: vercel
+4. Siga as instruções exibidas pela CLI. Para publicar em produção, execute: vercel --prod
+
+Alternativa: coloque os arquivos em um repositório Git e importe o repositório no painel da Vercel como um projeto estático. Não é necessário framework; index.html na raiz é suficiente.
+
+IMPORTANTE:
+- Os botões de download esperam que ebook.pdf fique ao lado de index.html.
+- O canal de WhatsApp está ligado ao link que aparece no próprio e-book.
+- Antes de divulgar, teste a página publicada em celular e computador e confirme o download.

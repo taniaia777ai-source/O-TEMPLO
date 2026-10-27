@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123e35">
+  <meta name="description" content="Baixe gratuitamente O Templo Que Você Habita, de Tania Santos. Uma leitura cristã sobre cuidado com o corpo, a mente e a vida espiritual, com reflexões bíblicas e práticas para o dia a dia.">
+  <title>O Templo Que Você Habita | E-book gratuito — Tania Santos</title>
+  <style>
+    :root {
+      --green: #123e35;
+      --green-2: #1c5a4b;
+      --gold: #e4bd65;
+      --cream: #f7f3e9;
+      --paper: #fffdf8;
+      --ink: #24342e;
+      --muted: #65736b;
+      --line: #e6e1d5;
+      --shadow: 0 18px 50px rgba(20, 45, 37, .12);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--paper); color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65; -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar { background: var(--green); color: #fff; text-align: center; padding: 10px 16px; font-size: .9rem; }
+    header { background: var(--paper); border-bottom: 1px solid rgba(18,62,53,.08); }
+    .nav { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 18px 0; }
+    .brand { font-family: Georgia, "Times New Roman", serif; font-weight: 700; letter-spacing: .02em; color: var(--green); }
+    .nav a { text-decoration: none; }
+    .nav-cta { font-size: .92rem; font-weight: 800; color: var(--green); }
+    .hero {
+      overflow: hidden; position: relative;
+      background: radial-gradient(circle at 82% 20%, rgba(228,189,101,.22), transparent 30%),
+                  linear-gradient(135deg, #f7f3e9 0%, #fffdf8 55%, #e9f0e7 100%);
+      padding: 70px 0 76px;
+    }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 58px; align-items: center; }
+    .eyebrow { color: var(--green-2); text-transform: uppercase; letter-spacing: .15em; font-size: .76rem; font-weight: 850; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.12; }
+    h1 { color: var(--green); font-size: clamp(2.7rem, 5.4vw, 4.8rem); letter-spacing: -.035em; margin: 16px 0; }
+    .subtitle { font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 650; color: var(--green-2); margin: 0 0 20px; }
+    .hero-copy { color: #46564e; font-size: 1.08rem; max-width: 610px; }
+    .hero-art { position: relative; max-width: 410px; margin: 0 auto; }
+    .cover { display: block; width: 100%; border-radius: 12px; box-shadow: 0 28px 60px rgba(10,39,33,.25); transform: rotate(1deg); }
+    .free-tag { display: inline-flex; align-items: center; gap: 8px; padding: 8px 13px; border: 1px solid #d9c58d; border-radius: 999px; color: var(--green); background: rgba(255,253,248,.75); font-size: .87rem; font-weight: 800; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 14px; }
+    .btn { display: inline-flex; justify-content: center; align-items: center; gap: 9px; border-radius: 8px; padding: 15px 22px; font-weight: 850; text-decoration: none; transition: transform .18s, background .18s; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #fff; background: var(--green); box-shadow: 0 8px 20px rgba(18,62,53,.18); }
+    .btn-primary:hover { background: var(--green-2); }
+    .btn-secondary { color: var(--green); border: 1px solid #b9c8bd; background: rgba(255,255,255,.65); }
+    .fine { color: var(--muted); font-size: .86rem; }
+    section { padding: 76px 0; }
+    .section-head { max-width: 760px; text-align: center; margin: 0 auto 38px; }
+    h2 { color: var(--green); font-size: clamp(2rem, 4vw, 3.1rem); margin: 12px 0 16px; }
+    .section-head p { color: var(--muted); font-size: 1.06rem; }
+    .soft { background: var(--cream); }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 25px; }
+    .num { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50%; color: var(--green); background: #f2e5bf; font-weight: 900; }
+    .card h3 { color: var(--green); font-size: 1.32rem; margin: 17px 0 10px; }
+    .card p { margin: 0; color: #58665e; }
+    .split { display: grid; grid-template-columns: .85fr 1.15fr; gap: 50px; align-items: center; }
+    .quote-box { border-left: 4px solid var(--gold); padding: 8px 0 8px 24px; font-family: Georgia, serif; font-size: 1.35rem; color: var(--green); }
+    .list { list-style: none; padding: 0; margin: 22px 0; display: grid; gap: 13px; }
+    .list li { display: flex; gap: 12px; align-items: flex-start; }
+    .check { color: var(--green-2); font-weight: 900; }
+    .author { background: var(--green); color: #fff; }
+    .author h2 { color: #fff; }
+    .author p { color: #e1e9e3; }
+    .author .eyebrow { color: var(--gold); }
+    .author-mark { border: 1px solid rgba(255,255,255,.25); border-radius: 16px; padding: 28px; }
+    .final-cta { text-align: center; background: linear-gradient(140deg, #f5edda, #f9f7f0); }
+    .final-cta .section-head { margin-bottom: 22px; }
+    footer { background: #0c2c26; color: #dce7df; padding: 30px 0; font-size: .86rem; }
+    footer p { margin: 8px 0; }
+    .disclaimer { color: #d0ddd4; max-width: 900px; }
+    @media (max-width: 800px) {
+      .hero { padding: 48px 0 58px; }
+      .hero-grid, .split { grid-template-columns: 1fr; gap: 35px; }
+      .hero-art { max-width: 310px; }
+      .cards { grid-template-columns: 1fr 1fr; }
+      section { padding: 58px 0; }
+      .nav-cta { display: none; }
+    }
+    @media (max-width: 540px) {
+      .wrap { width: min(100% - 28px, 1120px); }
+      .cards { grid-template-columns: 1fr; }
+      .actions { flex-direction: column; }
+      .btn { width: 100%; text-align: center; }
+      h1 { font-size: 2.65rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+  </style>
+</head>
+<body>
+  <div class="topbar">Um presente digital gratuito para sua jornada de fé e cuidado.</div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#" aria-label="O Templo Que Você Habita - início">O TEMPLO QUE VOCÊ HABITA</a>
+      <a class="nav-cta" href="#baixar">BAIXAR E-BOOK GRATUITO ↓</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="free-tag">✦ E-BOOK GRATUITO · PDF</span>
+          <p class="eyebrow" style="margin-top:24px">Fé • Cuidado • Esperança</p>
+          <h1>O Templo Que Você Habita</h1>
+          <p class="subtitle">Cuide do corpo. Alimente a esperança. Fortaleça a fé.</p>
+          <p class="hero-copy">Descubra o que a Bíblia e os escritos de Ellen G. White ensinam sobre cuidar do corpo, da mente e da vida espiritual — com reflexões acolhedoras e passos práticos para o dia a dia.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="ebook.pdf" download>↓ Quero meu e-book gratuito</a>
+            <a class="btn btn-secondary" href="#conteudo">Conhecer o conteúdo</a>
+          </div>
+          <p class="fine">Download direto, sem formulário. Leia no seu ritmo e consulte quando quiser.</p>
+        </div>
+        <div class="hero-art">
+          <img class="cover" src="capa-templo.jpg" alt="Capa do e-book O Templo Que Você Habita, de Tania Santos">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Um convite ao cuidado</p>
+          <h2>Seu corpo merece cuidado. Sua mente precisa de descanso. Sua fé merece ser cultivada.</h2>
+        </div>
+        <div>
+          <p>Em meio à correria e às preocupações, é fácil deixar o próprio cuidado para depois. A Bíblia nos convida a olhar para o corpo com gratidão, responsabilidade e propósito.</p>
+          <p><strong>O Templo Que Você Habita</strong> reúne ensinamentos bíblicos, reflexões dos escritos de Ellen G. White e sugestões práticas para inspirar escolhas conscientes — sem fórmulas mágicas e sem cobranças pela perfeição.</p>
+          <div class="quote-box">“Agora, pois, glorifiquem a Deus no corpo de vocês.”<br><span style="font-family:inherit;font-size:.85rem">1 Coríntios 6:20 · NAA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft" id="conteudo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Por dentro do e-book</p>
+          <h2>Uma leitura para refletir e colocar em prática</h2>
+          <p>Conheça os temas que você encontrará neste material gratuito.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="num">01</div><h3>O corpo como templo</h3><p>Reflexões bíblicas sobre valorizar a vida e cuidar do corpo que Deus nos confiou.</p></article>
+          <article class="card"><div class="num">02</div><h3>Saúde integral</h3><p>Uma abordagem que considera corpo, mente e vida espiritual, com respeito a cada jornada.</p></article>
+          <article class="card"><div class="num">03</div><h3>Os oito remédios naturais</h3><p>Alimentação equilibrada, exercício, água, sol, temperança, ar puro, descanso e confiança em Deus.</p></article>
+          <article class="card"><div class="num">04</div><h3>Alimentação e temperança</h3><p>Princípios de equilíbrio, hábitos cotidianos e escolhas conscientes.</p></article>
+          <article class="card"><div class="num">05</div><h3>Mente, corpo e fé</h3><p>Reflexões sobre esperança, gratidão, apoio e a importância de procurar ajuda quando necessário.</p></article>
+          <article class="card"><div class="num">06</div><h3>Descanso e sono</h3><p>Orientações práticas para refletir sobre a rotina de descanso e o repouso semanal.</p></article>
+        </div>
+        <div style="text-align:center;margin-top:28px">
+          <p style="font-weight:750;color:var(--green)">Inclui também um plano de 7 dias e folhas de atividades.</p>
+          <a class="btn btn-primary" href="ebook.pdf" download>Baixar gratuitamente ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Pequenos passos, com propósito</p>
+          <h2>Você não precisa mudar tudo de uma vez.</h2>
+          <p>O material propõe uma jornada gradual: ler, refletir e escolher um passo possível para sua rotina.</p>
+          <ul class="list">
+            <li><span class="check">✓</span><span>Plano prático de sete dias, com referências bíblicas.</span></li>
+            <li><span class="check">✓</span><span>Checklist semanal de hábitos.</span></li>
+            <li><span class="check">✓</span><span>Diário de gratidão e plano de sono.</span></li>
+            <li><span class="check">✓</span><span>Referências bíblicas e obras de Ellen G. White indicadas no material.</span></li>
+          </ul>
+          <a class="btn btn-primary" href="ebook.pdf" download>Quero ler o e-book</a>
+        </div>
+        <div style="background:var(--cream);border-radius:18px;padding:34px">
+          <p class="eyebrow">Para sua leitura pessoal</p>
+          <h3 style="font-size:1.7rem;color:var(--green)">Uma mensagem acolhedora, sem culpa e sem promessas mágicas.</h3>
+          <p>Os princípios de cuidado não são garantias de que nenhuma doença acontecerá. O material incentiva hábitos conscientes e reconhece a importância do acompanhamento profissional.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="author">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Organização e pesquisa</p>
+          <h2>Tania Santos</h2>
+          <p><strong>Pedagoga</strong></p>
+        </div>
+        <div class="author-mark">
+          <p>Tania Santos reuniu textos bíblicos e trechos dos escritos de Ellen G. White sobre saúde para oferecer aos leitores uma oportunidade de refletir sobre o cuidado com o corpo, a mente e o espírito.</p>
+          <p>A proposta é valorizar a Palavra de Deus, estimular o aprendizado e apresentar princípios que possam inspirar escolhas cotidianas mais conscientes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" id="baixar">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Seu próximo passo começa aqui</p>
+          <h2>Receba seu e-book gratuito</h2>
+          <p>Reserve um momento para ler, refletir e descobrir pequenos passos que façam sentido para sua rotina.</p>
+          <p><strong>O Templo Que Você Habita</strong><br>Organização e pesquisa: Tania Santos</p>
+        </div>
+        <a class="btn btn-primary" href="ebook.pdf" download>↓ Baixar e-book gratuito (PDF)</a>
+        <p class="fine" style="margin-top:15px">O arquivo será baixado diretamente para seu dispositivo.</p>
+        <p style="margin-top:24px"><a href="https://whatsapp.com/channel/0029VbEDqg805MUj51R7cz1s" target="_blank" rel="noopener noreferrer">Conheça também o canal gratuito no WhatsApp →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>O Templo Que Você Habita</strong> · Organização e pesquisa: Tania Santos · © 2026</p>
+      <p class="disclaimer">Este e-book tem finalidade educativa e de apoio espiritual. Não substitui consulta, diagnóstico ou tratamento realizado por médicos, nutricionistas, psicólogos ou outros profissionais de saúde. Em caso de sintomas ou dúvidas sobre sua saúde, procure orientação profissional.</p>
+      <p>Conteúdo destinado à reflexão e ao aprendizado. Nenhum resultado de saúde é prometido ou garantido.</p>
+    </div>
+  </footer>
+</body>
+</html>
